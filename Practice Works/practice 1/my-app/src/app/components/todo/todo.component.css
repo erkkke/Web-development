@@ -1,0 +1,10 @@
+
+.todo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.done .content {
+    text-decoration: line-through;
+}
