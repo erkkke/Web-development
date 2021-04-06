@@ -12,6 +12,7 @@ class Product(models.Model):
         return {
             'id': self.id,
             'name': self.name,
+            'price': self.price,
             'description': self.description,
             'count': self.count,
             'is_active': self.is_active
