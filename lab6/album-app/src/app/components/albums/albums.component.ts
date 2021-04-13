@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { AlbumsService } from 'src/app/albums.service';
 import { Album } from 'src/app/models/album-model';
 

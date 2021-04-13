@@ -1,7 +1,7 @@
 <div class="albums-component">
-    <h2>Posts List</h2>
+    <h2>Albums List</h2>
     <div class="adding-panel">
-        <input type="text" [(ngModel)]="newAlbum">
+        <input type="text" placeholder="Enter the title of the new album" [(ngModel)]="newAlbum">
         <button (click)="addAlbum()">Add Post</button>
     </div>
     <ul *ngIf="loaded" class="albums-list">

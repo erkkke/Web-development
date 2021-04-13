@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Product(models.Model):
     name = models.CharField(max_length=100)
@@ -17,7 +18,6 @@ class Product(models.Model):
             'count': self.count,
             'is_active': self.is_active
         }
-
 
 
 class Category(models.Model):
